@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="temp">
+
+    <listeners>
+        <listener class-name="TestNG_Demo.Basics.LinstenersDemo.TestNgListenersDemo1"/>
+    </listeners>
+
+    <test name="Test Basics 1">
+
+        <classes>
+            <class name="TestNG_Demo.Basics.LinstenersDemo.MyFirstTestCase">
+            <methods>
+                <include name="GoogleTitleVerification"/>
+            </methods>
+
+            </class>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Test -->
